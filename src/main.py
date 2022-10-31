@@ -40,7 +40,7 @@ def main():
 
         for i in rating:
             if rating.get(i) >= 3:
-                print("Student with 76 points in at least three disciplines: ", i)
+                print("Student: ", i)
                 break
             else:
                 print("No students")
